@@ -6,6 +6,7 @@ My part was the admin part, and a some kind of an inventory system, with a funct
 
 To run the system you will have to use a server (XAMPP or something else), mySQL (the database in the repository as well - **dailyprices_newest.sql**).
 
-In the index page you need to change sessions to look at all interfaces (the login part was not my part).
+In the **index.php** page you need to change sessions to look at all interfaces (the login part was not my part).
 It can be admin or staff.
+
 **$_SESSION['user_role'] = 'admin'**
